@@ -7,9 +7,8 @@ const App = () => {
     <>
       <NavBar />
       <ItemListContainer greeting="Bienvenido a la lista de articulos" />
-      <h1 className="titulo">Proyecto React</h1>;
       <hr />
-      <p>Primeras pruebas</p>;
+      <h1 className="titulo">Proyecto React</h1>;<p>Primeras pruebas</p>;
     </>
   );
 };
