@@ -6,3 +6,27 @@
   font-size: 30px;
   color: white;
 }
+
+.resetTitle {
+  text-decoration: none;
+  color: white;
+}
+
+.resetTitle:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.resetColor {
+  text-decoration: none;
+  color: white;
+}
+
+.resetColor:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.card-margin {
+  margin: 20px 0;
+}

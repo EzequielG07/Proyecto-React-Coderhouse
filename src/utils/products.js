@@ -6,7 +6,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/godOfWar_puu1tw.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_fill,h_467,w_350/v1670257570/reactCoderHouse/godOfWar_puu1tw.jpg",
     ],
     categoryId: 101,
     category: {
@@ -36,7 +36,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/monsterSactuary_vmcwpp.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/monsterSactuary_vmcwpp.jpg",
     ],
     categoryId: 101,
     category: {
@@ -51,7 +51,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/dioFeld_w1g2ku.webp",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/dioFeld_w1g2ku.webp",
     ],
     categoryId: 101,
     category: {
@@ -66,7 +66,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/dragonAge_g0ikar.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/dragonAge_g0ikar.jpg",
     ],
     categoryId: 101,
     category: {
@@ -81,7 +81,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/vegasPro_femufd.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/vegasPro_femufd.jpg",
     ],
     categoryId: 201,
     category: {
@@ -96,7 +96,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/aShampoo_odcqbl.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/aShampoo_odcqbl.jpg",
     ],
     categoryId: 201,
     category: {
@@ -111,7 +111,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/3dMaker_hejwj1.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/3dMaker_hejwj1.jpg",
     ],
     categoryId: 201,
     category: {
@@ -121,12 +121,12 @@ export const products = [
   },
   {
     id: 23,
-    name: "Pure VPN",
+    name: "Corel DRAW",
     stock: 100,
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257571/reactCoderHouse/pureVPn_e6srpz.webp",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670271948/reactCoderHouse/corelDraw_oaus0z.webp",
     ],
     categoryId: 201,
     category: {
@@ -141,7 +141,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/v1670257571/reactCoderHouse/rpgMaker_fsns6p.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257571/reactCoderHouse/rpgMaker_fsns6p.jpg",
     ],
     categoryId: 201,
     category: {
@@ -201,7 +201,7 @@ export const products = [
     cost: 7000,
     description: "completar datos",
     image: [
-      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257571/reactCoderHouse/collectorDarkSouls_hrx879.jpg",
+      "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_349,w_620/v1670257571/reactCoderHouse/collectorDarkSouls_hrx879.jpg",
     ],
     categoryId: 301,
     category: {

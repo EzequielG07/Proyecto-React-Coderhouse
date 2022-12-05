@@ -9,20 +9,20 @@ const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Link to="/">
-          <Navbar.Brand className="ms-0">ANIMA STORE</Navbar.Brand>
+        <Link to="/" className="resetTitle">
+          <Navbar.Brand className="ms-0 resetTitle">ANIMA STORE</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Link to="/category/101">
-              <Nav>Juegos</Nav>
+            <Link to="/category/101" className="resetColor">
+              <Nav className="mx-5">Juegos</Nav>
             </Link>
-            <Link to="/category/201">
-              <Nav>Programas</Nav>
+            <Link to="/category/201" className="resetColor">
+              <Nav className="mx-5">Programas</Nav>
             </Link>
-            <Link to="/category/301">
-              <Nav>Coleccion</Nav>
+            <Link to="/category/301" className="resetColor">
+              <Nav className="mx-5">Coleccion</Nav>
             </Link>
           </Nav>
         </Navbar.Collapse>

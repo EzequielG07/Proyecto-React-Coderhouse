@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../utils/products";
 import ItemList from "./ItemList";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 const ItemListContainer = () => {
   const [datos, setDatos] = useState([]);
@@ -26,9 +28,11 @@ const ItemListContainer = () => {
   }, [idCategory]);
 
   return (
-    <>
-      <ItemList items={datos} />
-    </>
+    <Container>
+      <Row className="justify-content-md-center">
+        <ItemList items={datos} />
+      </Row>
+    </Container>
   );
 };
 
