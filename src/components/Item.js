@@ -6,9 +6,9 @@ const Item = ({ id, name, stock, cost, pictureUrl }) => {
       <div>
         <img src={pictureUrl} alt="Same alt value" />
       </div>
-      <h3>producto {name}</h3>
-      <p>{stock}</p>
-      <p>{cost}</p>
+      <h3>Nombre Producto: {name}</h3>
+      <p>Cantidad: {stock}</p>
+      <p>Precio: ${cost}</p>
       <Link to={`/item/${id}`}>Detalles</Link>
     </div>
   );
