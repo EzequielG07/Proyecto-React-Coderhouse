@@ -15,8 +15,9 @@ const App = () => {
             <ItemListContainer greeting="Bienvenido a la lista de articulos" />
           }
         />
-        <Route path="/category/:id" element={<ItemListContainer />} />
-        <Route path="/item/:id" element={<ItemDetailContainer />} />
+        {/* ----------------------------------Ojo estas no son las rutas segun la consigna----------------------------------- */}
+        <Route path="/category/:idCategory" element={<ItemListContainer />} />
+        <Route path="/item/:idItem" element={<ItemDetailContainer />} />
       </Routes>
     </BrowserRouter>
     //  <>

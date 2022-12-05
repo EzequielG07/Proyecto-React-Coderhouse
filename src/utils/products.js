@@ -6,7 +6,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 101,
     category: {
@@ -21,7 +21,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 101,
     category: {
@@ -36,7 +36,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 101,
     category: {
@@ -51,7 +51,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 101,
     category: {
@@ -66,7 +66,7 @@ export const products = [
     cost: 3000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 101,
     category: {
@@ -81,7 +81,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 201,
     category: {
@@ -96,7 +96,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 201,
     category: {
@@ -111,7 +111,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 201,
     category: {
@@ -126,7 +126,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 201,
     category: {
@@ -141,7 +141,7 @@ export const products = [
     cost: 2000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 201,
     category: {
@@ -156,7 +156,7 @@ export const products = [
     cost: 7000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 301,
     category: {
@@ -171,7 +171,7 @@ export const products = [
     cost: 7000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 301,
     category: {
@@ -186,7 +186,7 @@ export const products = [
     cost: 7000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 301,
     category: {
@@ -201,7 +201,7 @@ export const products = [
     cost: 7000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 301,
     category: {
@@ -216,7 +216,7 @@ export const products = [
     cost: 7000,
     description: "completar datos",
     image: [
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmonster-sanctuary.fandom.com%2Fwiki%2FBard&psig=AOvVaw2FUgNTuGudSth7vTCak0aW&ust=1670291108542000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjlq7St4fsCFQAAAAAdAAAAABAE",
+      "https://i2.wp.com/islademonos.com/wp-content/uploads/2019/12/JPJ6BOt.png?resize=366%2C342",
     ],
     categoryId: 301,
     category: {

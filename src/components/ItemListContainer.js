@@ -2,6 +2,7 @@ import customFetch from "../utils/customFecth";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../utils/products";
+import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
   const [datos, setDatos] = useState([]);
@@ -13,8 +14,12 @@ const ItemListContainer = () => {
     if (idCategory) {
       customFetch(
         2000,
-        products.filter((item) => item.category === parseInt(idCategory))
+        products.filter((item) => item.categoryId === parseInt(idCategory))
       )
+        .then((result) => setDatos(result))
+        .catch((err) => console.log(err));
+    } else {
+      customFetch(2000, products)
         .then((result) => setDatos(result))
         .catch((err) => console.log(err));
     }
