@@ -14,7 +14,7 @@ const ItemListContainer = (props) => {
     if (idCategory) {
       customFetch(
         2000,
-        products.filter((item) => item.categoryId === parseInt(idCategory))
+        products.filter((item) => item.categoryId === idCategory)
       )
         .then((result) => setDatos(result))
         .catch((err) => console.log(err));

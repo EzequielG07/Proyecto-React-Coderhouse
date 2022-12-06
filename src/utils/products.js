@@ -8,7 +8,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_fill,h_467,w_350/v1670257570/reactCoderHouse/godOfWar_puu1tw.jpg",
     ],
-    categoryId: 101,
+    categoryId: "juegos",
     category: {
       name: "Juegos",
       id: 101,
@@ -23,7 +23,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/theWitcher_jomdan.jpg",
     ],
-    categoryId: 101,
+    categoryId: "juegos",
     category: {
       name: "Juegos",
       id: 101,
@@ -38,7 +38,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/monsterSactuary_vmcwpp.jpg",
     ],
-    categoryId: 101,
+    categoryId: "juegos",
     category: {
       name: "Juegos",
       id: 101,
@@ -53,7 +53,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/dioFeld_w1g2ku.webp",
     ],
-    categoryId: 101,
+    categoryId: "juegos",
     category: {
       name: "Juegos",
       id: 101,
@@ -68,7 +68,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/dragonAge_g0ikar.jpg",
     ],
-    categoryId: 101,
+    categoryId: "juegos",
     category: {
       name: "Juegos",
       id: 101,
@@ -83,7 +83,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/vegasPro_femufd.jpg",
     ],
-    categoryId: 201,
+    categoryId: "programas",
     category: {
       name: "Programas",
       id: 201,
@@ -98,7 +98,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/aShampoo_odcqbl.jpg",
     ],
-    categoryId: 201,
+    categoryId: "programas",
     category: {
       name: "Programas",
       id: 201,
@@ -113,7 +113,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/3dMaker_hejwj1.jpg",
     ],
-    categoryId: 201,
+    categoryId: "programas",
     category: {
       name: "Programas",
       id: 201,
@@ -128,7 +128,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670271948/reactCoderHouse/corelDraw_oaus0z.webp",
     ],
-    categoryId: 201,
+    categoryId: "programas",
     category: {
       name: "Programas",
       id: 201,
@@ -143,7 +143,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257571/reactCoderHouse/rpgMaker_fsns6p.jpg",
     ],
-    categoryId: 201,
+    categoryId: "programas",
     category: {
       name: "Programas",
       id: 201,
@@ -158,7 +158,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257572/reactCoderHouse/collectorRe3_ogveyd.webp",
     ],
-    categoryId: 301,
+    categoryId: "coleccion",
     category: {
       name: "Coleccion",
       id: 301,
@@ -173,7 +173,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257571/reactCoderHouse/collectorGodOfWar_jucwba.webp",
     ],
-    categoryId: 301,
+    categoryId: "coleccion",
     category: {
       name: "Coleccion",
       id: 301,
@@ -188,7 +188,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257571/reactCoderHouse/collectorCyberPunk_iy2xwt.webp",
     ],
-    categoryId: 301,
+    categoryId: "coleccion",
     category: {
       name: "Coleccion",
       id: 301,
@@ -203,7 +203,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_349,w_620/v1670257571/reactCoderHouse/collectorDarkSouls_hrx879.jpg",
     ],
-    categoryId: 301,
+    categoryId: "coleccion",
     category: {
       name: "Coleccion",
       id: 301,
@@ -218,7 +218,7 @@ export const products = [
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/v1670257571/reactCoderHouse/collectorDarkSouls3_mxn89a.jpg",
     ],
-    categoryId: 301,
+    categoryId: "coleccion",
     category: {
       name: "Coleccion",
       id: 301,

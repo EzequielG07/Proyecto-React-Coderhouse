@@ -3,7 +3,7 @@ import "../App.css";
 
 const ItemDetail = ({ item }) => {
   return item && item.image ? (
-    <Card className="img-size">
+    <Card className="img-size" bg="secondary">
       <Card.Img variant="top" src={item.image} alt="Same alt value" />
       <Card.Body>
         <Card.Text>

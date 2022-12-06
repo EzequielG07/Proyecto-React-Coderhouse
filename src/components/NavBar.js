@@ -15,13 +15,13 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Link to="/category/101" className="resetColor">
+            <Link to="/category/juegos" className="resetColor">
               <Nav className="mx-5">Juegos</Nav>
             </Link>
-            <Link to="/category/201" className="resetColor">
+            <Link to="/category/programas" className="resetColor">
               <Nav className="mx-5">Programas</Nav>
             </Link>
-            <Link to="/category/301" className="resetColor">
+            <Link to="/category/coleccion" className="resetColor">
               <Nav className="mx-5">Coleccion</Nav>
             </Link>
           </Nav>
