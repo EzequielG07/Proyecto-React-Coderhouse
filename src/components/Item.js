@@ -25,15 +25,3 @@ const Item = ({ id, name, stock, cost, pictureUrl }) => {
 };
 
 export default Item;
-
-// return (
-//   <div>
-//     <div>
-//       <img src={pictureUrl} alt="Same alt value" />
-//     </div>
-//     <h3>Nombre Producto: {name}</h3>
-//     <p>Cantidad: {stock}</p>
-//     <p>Precio: ${cost}</p>
-//     <Link to={`/item/${id}`}>Detalles</Link>
-//   </div>
-// );

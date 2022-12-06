@@ -6,11 +6,9 @@ import ItemList from "./ItemList";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const ItemListContainer = () => {
+const ItemListContainer = (props) => {
   const [datos, setDatos] = useState([]);
   const { idCategory } = useParams();
-
-  console.log(idCategory); //---------->sacar esto
 
   useEffect(() => {
     if (idCategory) {
@@ -29,6 +27,9 @@ const ItemListContainer = () => {
 
   return (
     <Container>
+      <p>
+        <span>{props.greeting}</span>
+      </p>
       <Row className="justify-content-md-center">
         <ItemList items={datos} />
       </Row>
@@ -37,18 +38,3 @@ const ItemListContainer = () => {
 };
 
 export default ItemListContainer;
-
-// const ItemListContainer = (props) => {
-//   return (
-//     <>
-//       <div>
-//         <p>
-//           <span>{props.greeting}</span>
-//         </p>
-//         Item List Container:
-//       </div>
-//     </>
-//   );
-// };
-
-// export default ItemListContainer;
