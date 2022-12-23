@@ -1,0 +1,1 @@
+23-12: se trabajo en los archivos de App, CartContext, ItemDetail, ItemCount y Cart, se agrego las funcionalidades de contexto
