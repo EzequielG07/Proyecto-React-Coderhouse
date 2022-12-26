@@ -1,1 +1,2 @@
 23-12: se trabajo en los archivos de App, CartContext, ItemDetail, ItemCount y Cart, se agrego las funcionalidades de contexto
+25-12: se trabajo en los archivos de Cart, CartWidget y CartContext, se agrego las funcionalidades para que sume los totales subtotales y  muete el icono las cantidades.
