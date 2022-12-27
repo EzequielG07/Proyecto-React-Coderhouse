@@ -4,7 +4,8 @@ export const products = [
     name: "God of War",
     stock: 100,
     cost: 3000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_fill,h_467,w_350/v1670257570/reactCoderHouse/godOfWar_puu1tw.jpg",
     ],
@@ -19,7 +20,8 @@ export const products = [
     name: "The Witcher",
     stock: 100,
     cost: 3000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/v1670257570/reactCoderHouse/theWitcher_jomdan.jpg",
     ],
@@ -34,7 +36,8 @@ export const products = [
     name: "Monster Sanctuary",
     stock: 100,
     cost: 3000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/monsterSactuary_vmcwpp.jpg",
     ],
@@ -49,7 +52,8 @@ export const products = [
     name: "The DioFIELD Chronicle",
     stock: 100,
     cost: 3000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/dioFeld_w1g2ku.webp",
     ],
@@ -64,7 +68,8 @@ export const products = [
     name: "Dragon Age Inquisition",
     stock: 100,
     cost: 3000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/dragonAge_g0ikar.jpg",
     ],
@@ -79,7 +84,8 @@ export const products = [
     name: "Vegas PRO",
     stock: 100,
     cost: 2000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/vegasPro_femufd.jpg",
     ],
@@ -94,7 +100,8 @@ export const products = [
     name: "Photo Optimizer 7",
     stock: 100,
     cost: 2000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/aShampoo_odcqbl.jpg",
     ],
@@ -109,7 +116,8 @@ export const products = [
     name: "Xara 3D Maker 7",
     stock: 100,
     cost: 2000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257570/reactCoderHouse/3dMaker_hejwj1.jpg",
     ],
@@ -124,7 +132,8 @@ export const products = [
     name: "Corel DRAW",
     stock: 100,
     cost: 2000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670271948/reactCoderHouse/corelDraw_oaus0z.webp",
     ],
@@ -139,7 +148,8 @@ export const products = [
     name: "RPG Maker",
     stock: 100,
     cost: 2000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_467,w_350/v1670257571/reactCoderHouse/rpgMaker_fsns6p.jpg",
     ],
@@ -154,7 +164,8 @@ export const products = [
     name: "Resident Evil 3 - Collector Edition",
     stock: 100,
     cost: 7000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257572/reactCoderHouse/collectorRe3_ogveyd.webp",
     ],
@@ -169,7 +180,8 @@ export const products = [
     name: "God of War - Collector Edition",
     stock: 100,
     cost: 7000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257571/reactCoderHouse/collectorGodOfWar_jucwba.webp",
     ],
@@ -184,7 +196,8 @@ export const products = [
     name: "CyberPunk2077 - Collector Edition",
     stock: 100,
     cost: 7000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,w_620/v1670257571/reactCoderHouse/collectorCyberPunk_iy2xwt.webp",
     ],
@@ -199,7 +212,8 @@ export const products = [
     name: "Dark Souls - Collector Edition",
     stock: 100,
     cost: 7000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/c_scale,h_349,w_620/v1670257571/reactCoderHouse/collectorDarkSouls_hrx879.jpg",
     ],
@@ -214,7 +228,8 @@ export const products = [
     name: "Dark Souls III - Collector Edition",
     stock: 100,
     cost: 7000,
-    description: "completar datos",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     image: [
       "https://res.cloudinary.com/duniuldn7/image/upload/v1670257571/reactCoderHouse/collectorDarkSouls3_mxn89a.jpg",
     ],

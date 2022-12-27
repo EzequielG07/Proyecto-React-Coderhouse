@@ -8,6 +8,11 @@ import {
   ImgContainer,
   ImgConfig,
   InfoContainer,
+  ProductTitle,
+  Description,
+  Price,
+  Stock,
+  ButtonDetail,
 } from "./styledComponents";
 import "../App.css";
 
@@ -27,12 +32,13 @@ const ItemDetail = ({ item }) => {
         <ImgConfig src={item.image[0]} />
       </ImgContainer>
       <InfoContainer>
-        <h3>Titulo: {item.name}</h3>
-        <p>Unidades en stock: {item.stock}</p>
-        <p>Precio x unidad: ${item.cost}</p> {/*-> PRUEBA DE ItemCount*/}
+        <ProductTitle>{item.name}</ProductTitle>
+        <Description>{item.description}</Description>
+        <Stock>Stock: {item.stock} u.</Stock>
+        <Price>${item.cost}</Price> {/*-> PRUEBA DE ItemCount*/}
         <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
         <Link to="/cart" style={{ textDecoration: "none" }}>
-          <button> CheckOut </button>{" "}
+          <ButtonDetail> CheckOut </ButtonDetail>{" "}
         </Link>
       </InfoContainer>
     </ItemDetailContainer>

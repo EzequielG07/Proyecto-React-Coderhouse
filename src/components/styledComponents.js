@@ -2,15 +2,12 @@ import styled from "styled-components";
 
 export const ButtonDetail = styled.button`
   font-size: 30px;
+  font-weight: 500;
   color: white;
-  background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #00bf72,
-    #a8eb12
-  );
+  margin-top: 50px;
+  background-color: #930000;
+  border: none;
+  border-radius: 6px;
 `;
 
 export const BadgeCount = styled.p`
@@ -38,27 +35,53 @@ export const ItemDetailContainer = styled.div`
   display: flex;
   flex-direction: row;
   padding-top: 100px;
-  /* border: solid white 1px; */
+  border: solid red 5px;
 `;
 
 export const ImgContainer = styled.div`
-  border: solid white 1px;
   flex: 1;
+  border: solid white 1px;
   text-align: center;
 `;
+
 export const ImgConfig = styled.img`
-  height: 100%;
+  height: 50%;
+  object-fit: cover;
 `;
+
 export const InfoContainer = styled.div`
-  border: solid white 1px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: solid hotpink 1px;
   text-align: center;
-  padding: 50px 0px;
-  flex: 1;
+  padding: 50px 5px;
+`;
+
+export const ProductTitle = styled.h3`
+  font-size: 3em;
+  color: white;
+`;
+
+export const Description = styled.p`
+  color: white;
+  text-align: justify;
+`;
+
+export const Stock = styled.p`
+  font-size: 1em;
+  color: grey;
+`;
+
+export const Price = styled.p`
+  font-size: 2em;
+  color: white;
 `;
 
 //ItemCount
 export const ButtonAddToCart = styled.button`
-  background-color: #008cba;
+  background-color: #005612;
   border: none;
   border-radius: 6px;
   color: white;
@@ -73,5 +96,19 @@ export const CounterContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   border: solid red 1px;
-  margin: 0px 120px;
+  margin-top: 80px;
+  color: white;
+`;
+
+//Cart
+
+export const ProductItem = styled.li`
+  color: white;
+`;
+
+export const ButtonDelete = styled.button`
+  color: white;
+  background-color: #930000;
+  border: none;
+  border-radius: 6px;
 `;

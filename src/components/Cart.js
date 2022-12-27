@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { CartContext } from "./CartContext";
 import { Link } from "react-router-dom";
+import { ProductItem } from "./styledComponents";
+import { ButtonDelete } from "./styledComponents";
 
 const Cart = () => {
   const {
@@ -25,15 +27,15 @@ const Cart = () => {
           <p>Your Cart is Empty</p>
         ) : (
           cartList.map((item) => (
-            <li key={item.idItem}>
+            <ProductItem key={item.idItem}>
               {" "}
-              {item.nameItem} - Cantidad: {item.qtyItem} - Costo:{" "}
-              {item.priceItem} - Total ind.: {calcTotalPerItem(item.idItem)}
               {/* <img src={item.image[0]} alt="" /> */}
-              <button onClick={() => deleteThis(item.idItem)}>
-                Delete This Product
-              </button>
-            </li>
+              {item.qtyItem} u. - {item.nameItem} - Costo:$
+              {item.priceItem} - Total ind.: ${calcTotalPerItem(item.idItem)}
+              <ButtonDelete onClick={() => deleteThis(item.idItem)}>
+                Delete
+              </ButtonDelete>
+            </ProductItem>
           ))
         )}
       </ul>
