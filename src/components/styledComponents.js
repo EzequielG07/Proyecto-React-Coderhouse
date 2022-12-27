@@ -102,8 +102,26 @@ export const CounterContainer = styled.div`
 
 //Cart
 
+export const CartContainer = styled.ul`
+  border: solid hotpink 1px;
+  padding: 5px;
+  width: 60%;
+`;
+
+export const TextEmpty = styled.p`
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+  font-size: 50px;
+  font-weight: 200;
+`;
+
 export const ProductItem = styled.li`
   color: white;
+  margin: 20px 2px;
+  list-style: none;
+  border: solid red 1px;
+  font-weight: 500;
 `;
 
 export const ButtonDelete = styled.button`
@@ -111,4 +129,54 @@ export const ButtonDelete = styled.button`
   background-color: #930000;
   border: none;
   border-radius: 6px;
+`;
+
+export const ImageInCart = styled.img`
+  height: 100px;
+`;
+
+export const BillContainer = styled.div`
+  border: solid white 3px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 40%;
+  text-align: end;
+`;
+
+export const Subtotal = styled.p`
+  font-size: 15px;
+  font-style: italic;
+  color: white;
+`;
+
+export const Taxes = styled.p`
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
+`;
+
+export const TotalBill = styled.p`
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  border-top: dashed white 2px;
+  padding-top: 10px;
+`;
+
+export const ButtonCartContainer = styled.div`
+  border: dashed blue 2px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+`;
+
+export const ButtonsCart = styled.button`
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 400;
 `;

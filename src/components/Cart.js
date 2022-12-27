@@ -1,8 +1,19 @@
 import { useContext } from "react";
 import { CartContext } from "./CartContext";
 import { Link } from "react-router-dom";
-import { ProductItem } from "./styledComponents";
-import { ButtonDelete } from "./styledComponents";
+import {
+  CartContainer,
+  TextEmpty,
+  ButtonCartContainer,
+  ButtonsCart,
+  ProductItem,
+  ButtonDelete,
+  ImageInCart,
+  BillContainer,
+  Subtotal,
+  Taxes,
+  TotalBill,
+} from "./styledComponents";
 
 const Cart = () => {
   const {
@@ -17,33 +28,40 @@ const Cart = () => {
 
   return (
     <>
-      <p>I am a Cart 😅</p>
-      <button onClick={removeList}>Delete ALL</button>
-      <Link to="/">
-        <button>Continue Shopping</button>
-      </Link>
-      <ul>
+      <ButtonCartContainer>
+        <Link to="/">
+          <ButtonsCart>Continue Shopping</ButtonsCart>
+        </Link>
+        {/* <ButtonsCart onClick={removeList}>Delete ALL</ButtonsCart> */}
+        {cartList.length !== 0 ? (
+          <ButtonsCart onClick={removeList}>Delete ALL</ButtonsCart>
+        ) : (
+          <div></div>
+        )}
+      </ButtonCartContainer>
+      <CartContainer>
         {cartList.length === 0 ? (
-          <p>Your Cart is Empty</p>
+          <TextEmpty>Your Cart is Empty...</TextEmpty>
         ) : (
           cartList.map((item) => (
             <ProductItem key={item.idItem}>
               {" "}
-              {/* <img src={item.image[0]} alt="" /> */}
+              <ImageInCart src={item.imageItem[0]} alt="" />
               {item.qtyItem} u. - {item.nameItem} - Costo:$
-              {item.priceItem} - Total ind.: ${calcTotalPerItem(item.idItem)}
+              {item.priceItem} - Total ind.: ${calcTotalPerItem(item.idItem)}{" "}
+              {"  "}
               <ButtonDelete onClick={() => deleteThis(item.idItem)}>
                 Delete
               </ButtonDelete>
             </ProductItem>
           ))
         )}
-      </ul>
-      <div>
-        <p>Subtotal: {calcSubTotal()}</p>
-        <p>impuesto pais 60%: {calcCountryTax()}</p>
-        <p>Total: {calcTotal()}</p>
-      </div>
+      </CartContainer>
+      <BillContainer>
+        <Subtotal>Subtotal: ${calcSubTotal()}</Subtotal>
+        <Taxes>Impuesto pais 60%: ${calcCountryTax()}</Taxes>
+        <TotalBill>Total: ${calcTotal()}</TotalBill>
+      </BillContainer>
     </>
   );
 };
