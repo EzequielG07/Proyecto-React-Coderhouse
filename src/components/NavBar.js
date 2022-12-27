@@ -26,7 +26,9 @@ const NavBar = () => {
             </Link>
           </Nav>
         </Navbar.Collapse>
-        <CartWidget />
+        <Link to="/cart" className="resetColor">
+          <CartWidget />
+        </Link>
       </Container>
     </Navbar>
   );

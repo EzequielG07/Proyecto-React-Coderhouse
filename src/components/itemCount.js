@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { ButtonAddToCart, CounterContainer } from "./styledComponents";
+import Button from "react-bootstrap/Button";
 
 const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
   const [count, setCount] = useState(0);
@@ -21,10 +23,18 @@ const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
 
   return (
     <>
-      <button onClick={increment}> + </button>
-      {count}
-      <button onClick={decrement}> - </button>
-      <button onClick={() => onAdd(count)}>Add To CART</button>
+      <CounterContainer>
+        <Button variant="dark" onClick={decrement}>
+          -
+        </Button>
+        {count}
+        <Button variant="dark" onClick={increment}>
+          +
+        </Button>
+        <ButtonAddToCart onClick={() => onAdd(count)}>
+          Add To CART
+        </ButtonAddToCart>
+      </CounterContainer>
     </>
   );
 };
