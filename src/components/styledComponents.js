@@ -5,7 +5,7 @@ export const ButtonDetail = styled.button`
   font-weight: 500;
   color: white;
   margin-top: 50px;
-  background-color: #930000;
+  background-color: #023887;
   border: none;
   border-radius: 6px;
 `;
@@ -42,15 +42,16 @@ export const ImgContainer = styled.div`
   flex: 1;
   border: solid white 1px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 `;
 
 export const ImgConfig = styled.img`
-  height: 50%;
-  object-fit: cover;
+  object-fit: contain;
 `;
 
 export const InfoContainer = styled.div`
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -90,7 +91,7 @@ export const ButtonAddToCart = styled.button`
 `;
 
 export const CounterContainer = styled.div`
-  width: 25%;
+  width: 35%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -103,7 +104,7 @@ export const CounterContainer = styled.div`
 //Cart
 
 export const CartContainer = styled.ul`
-  border: solid hotpink 1px;
+  /* border: solid hotpink 1px; */
   padding: 5px;
   width: 60%;
 `;
@@ -120,7 +121,7 @@ export const ProductItem = styled.li`
   color: white;
   margin: 20px 2px;
   list-style: none;
-  border: solid red 1px;
+  /* border: solid red 1px; */
   font-weight: 500;
 `;
 
@@ -133,6 +134,7 @@ export const ButtonDelete = styled.button`
 
 export const ImageInCart = styled.img`
   height: 100px;
+  margin-right: 5px;
 `;
 
 export const BillContainer = styled.div`
@@ -165,18 +167,60 @@ export const TotalBill = styled.p`
 `;
 
 export const ButtonCartContainer = styled.div`
-  border: dashed blue 2px;
+  /* border: dashed blue 2px; */
   width: 30%;
   display: flex;
   justify-content: space-around;
   margin: 10px;
 `;
 
-export const ButtonsCart = styled.button`
+export const ButtonShop = styled.button`
   color: white;
-  background-color: grey;
+  background-color: #023887;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+`;
+
+export const ButtonDeleteAll = styled.button`
+  color: white;
+  background-color: #cc1c32;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+`;
+
+//Item
+
+export const ButtonItem = styled.button`
+  background-color: #4b4453;
   border: none;
   border-radius: 6px;
   font-size: 20px;
   font-weight: 400;
+  height: 40px;
+`;
+
+export const TitleItem = styled.h3`
+  color: white;
+  font-size: 20px;
+`;
+
+export const TextItem = styled.p`
+  color: grey;
+  font-size: 15px;
+`;
+
+export const Loading = styled.p`
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+`;
+
+export const TextCommon = styled.p`
+  color: white;
 `;

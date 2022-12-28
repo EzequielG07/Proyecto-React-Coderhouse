@@ -13,6 +13,7 @@ import {
   Price,
   Stock,
   ButtonDetail,
+  TextCommon,
 } from "./styledComponents";
 import "../App.css";
 
@@ -36,14 +37,21 @@ const ItemDetail = ({ item }) => {
         <Description>{item.description}</Description>
         <Stock>Stock: {item.stock} u.</Stock>
         <Price>${item.cost}</Price> {/*-> PRUEBA DE ItemCount*/}
-        <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
+        {itemCount === 0 ? (
+          <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
+        ) : (
+          <Link to="/cart" style={{ textDecoration: "none" }}>
+            <ButtonDetail> CheckOut </ButtonDetail>{" "}
+          </Link>
+        )}
+        {/* <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
         <Link to="/cart" style={{ textDecoration: "none" }}>
           <ButtonDetail> CheckOut </ButtonDetail>{" "}
-        </Link>
+        </Link> */}
       </InfoContainer>
     </ItemDetailContainer>
   ) : (
-    <p>Cargando detalle...</p>
+    <TextCommon>Cargando detalle...</TextCommon>
   );
 };
 

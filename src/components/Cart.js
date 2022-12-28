@@ -5,7 +5,8 @@ import {
   CartContainer,
   TextEmpty,
   ButtonCartContainer,
-  ButtonsCart,
+  ButtonShop,
+  ButtonDeleteAll,
   ProductItem,
   ButtonDelete,
   ImageInCart,
@@ -30,11 +31,11 @@ const Cart = () => {
     <>
       <ButtonCartContainer>
         <Link to="/">
-          <ButtonsCart>Continue Shopping</ButtonsCart>
+          <ButtonShop>Continue Shopping</ButtonShop>
         </Link>
         {/* <ButtonsCart onClick={removeList}>Delete ALL</ButtonsCart> */}
         {cartList.length !== 0 ? (
-          <ButtonsCart onClick={removeList}>Delete ALL</ButtonsCart>
+          <ButtonDeleteAll onClick={removeList}>Delete ALL</ButtonDeleteAll>
         ) : (
           <div></div>
         )}

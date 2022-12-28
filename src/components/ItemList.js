@@ -1,4 +1,5 @@
 import Item from "./Item";
+import { Loading } from "./styledComponents";
 
 const ItemList = ({ items }) => {
   return (
@@ -15,7 +16,7 @@ const ItemList = ({ items }) => {
           />
         ))
       ) : (
-        <p>Cargando...</p>
+        <Loading>Cargando...</Loading>
       )}
     </>
   );

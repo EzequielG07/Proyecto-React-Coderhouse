@@ -37,10 +37,11 @@ body {
 }
 
 .card-margin {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
-.img-size {
-  width: 30%;
-  height: 30%;
+.img-cover {
+  object-fit: cover;
+  height: 22rem;
+  width: 16rem;
 }

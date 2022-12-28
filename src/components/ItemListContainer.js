@@ -5,6 +5,7 @@ import { products } from "../utils/products";
 import ItemList from "./ItemList";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import { TextCommon } from "./styledComponents";
 
 const ItemListContainer = (props) => {
   const [datos, setDatos] = useState([]);
@@ -27,9 +28,7 @@ const ItemListContainer = (props) => {
 
   return (
     <Container>
-      <p>
-        <span>{props.greeting}</span>
-      </p>
+      <TextCommon>{props.greeting}</TextCommon>
       <Row className="justify-content-md-center">
         <ItemList items={datos} />
       </Row>
