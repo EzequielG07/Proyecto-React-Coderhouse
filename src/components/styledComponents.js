@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ButtonDetail = styled.button`
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: white;
   margin-top: 50px;
@@ -35,12 +35,12 @@ export const ItemDetailContainer = styled.div`
   display: flex;
   flex-direction: row;
   padding-top: 100px;
-  border: solid red 5px;
+  /* border: solid red 5px; */
 `;
 
 export const ImgContainer = styled.div`
   flex: 1;
-  border: solid white 1px;
+  /* border: solid white 1px; */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -55,9 +55,9 @@ export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: solid hotpink 1px;
+  /* border: solid hotpink 1px; */
   text-align: center;
-  padding: 50px 5px;
+  padding: 50px 20px;
 `;
 
 export const ProductTitle = styled.h3`
@@ -90,14 +90,23 @@ export const ButtonAddToCart = styled.button`
   font-weight: 400;
 `;
 
+export const ButtonAddDisable = styled.button`
+  background-color: #005612;
+  opacity: 0.1;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+`;
 export const CounterContainer = styled.div`
   width: 35%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  border: solid red 1px;
-  margin-top: 80px;
+  /* border: solid red 1px; */
+  margin-top: 50px;
   color: white;
 `;
 

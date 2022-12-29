@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
-import { ButtonAddToCart, CounterContainer } from "./styledComponents";
+import {
+  ButtonAddToCart,
+  ButtonAddDisable,
+  CounterContainer,
+} from "./styledComponents";
 import Button from "react-bootstrap/Button";
 
 const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
@@ -36,11 +40,8 @@ const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
             Add To CART
           </ButtonAddToCart>
         ) : (
-          <ButtonAddToCart disabled>Add To CART</ButtonAddToCart>
+          <ButtonAddDisable disabled>Add To CART</ButtonAddDisable>
         )}
-        {/* <ButtonAddToCart onClick={() => onAdd(count)}>
-          Add To CART
-        </ButtonAddToCart> */}
       </CounterContainer>
     </>
   );

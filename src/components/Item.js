@@ -21,8 +21,8 @@ const Item = ({ id, name, stock, cost, pictureUrl }) => {
         />
         <Card.Body>
           <TitleItem>{name}</TitleItem>
-          <Price>${cost}</Price>
           <TextItem>{stock} u.</TextItem>
+          <Price>${cost}</Price>
           <ButtonItem variant="dark">
             <Link to={`/item/${id}`} className="resetColor">
               Detalles
