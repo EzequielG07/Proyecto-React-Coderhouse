@@ -27,16 +27,6 @@ import { db } from "../utils/firebaseConfig";
 import { message } from "../utils/message";
 
 const Cart = () => {
-  //   const {
-  //     cartList,
-  //     removeList,
-  //     deleteThis,
-  //     calcTotalPerItem,
-  //     calcSubTotal,
-  //     calcCountryTax,
-  //     calcTotal,
-  //   } = useContext(CartContext);
-
   const ctx = useContext(CartContext);
 
   const createOrder = () => {
@@ -55,9 +45,9 @@ const Cart = () => {
       })),
       total: ctx.calcTotal(),
     };
-    console.log(order); //ojo consoleee
+
     const createOrderInFirestore = async () => {
-      const newOrderRef = doc(collection(db, "orders")); //para generar los id de manera automatica desde firestore
+      const newOrderRef = doc(collection(db, "orders"));
       await setDoc(newOrderRef, order);
       return newOrderRef;
     };
@@ -65,15 +55,12 @@ const Cart = () => {
     createOrderInFirestore()
       .then((result) => {
         message(`Tu orden cod:${result.id} ha sido creada`);
-        //actualizar stock de productos
         ctx.cartList.forEach(async (item) => {
           const itemRef = doc(db, "products", item.idItem);
           await updateDoc(itemRef, {
-            //   stock: stock - item.qtyItem
             stock: increment(-item.qtyItem),
           });
         });
-        //vaciar el carrito
         ctx.removeList();
       })
       .catch((err) => console.log(err));
@@ -85,7 +72,6 @@ const Cart = () => {
         <Link to="/">
           <ButtonShop>Continue Shopping</ButtonShop>
         </Link>
-        {/* <ButtonsCart onClick={removeList}>Delete ALL</ButtonsCart> */}
         {ctx.cartList.length !== 0 ? (
           <ButtonDeleteAll onClick={ctx.removeList}>Delete ALL</ButtonDeleteAll>
         ) : (

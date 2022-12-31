@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// import customFecth from "../utils/customFecth";
-// import { products } from "../utils/products";
 import ItemDetail from "./ItemDetail";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../utils/firebaseConfig";
@@ -12,7 +10,6 @@ const ItemDetailContainer = () => {
 
   useEffect(() => {
     const fetchOneFromFirestore = async () => {
-      //consultar a Firestore por el producto idItem
       const docRef = doc(db, "products", idItem);
       const docSnap = await getDoc(docRef);
 
@@ -22,7 +19,6 @@ const ItemDetailContainer = () => {
           ...docSnap.data(),
         };
       } else {
-        // doc.data() will be undefined in this case
         console.log("No such document!");
       }
     };

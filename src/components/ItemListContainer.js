@@ -1,7 +1,5 @@
-// import customFetch from "../utils/customFecth";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// import { products } from "../utils/products";
 import ItemList from "./ItemList";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -13,7 +11,6 @@ const ItemListContainer = (props) => {
   const [datos, setDatos] = useState([]);
   const { idCategory } = useParams();
 
-  //componentDidUpdate
   useEffect(() => {
     const fetchFromFirestore = async () => {
       let q;
@@ -23,10 +20,9 @@ const ItemListContainer = (props) => {
           where("categoryId", "==", idCategory)
         );
       } else {
-        //undefined
         q = query(collection(db, "products"), orderBy("categoryId"));
       }
-      const querySnapshot = await getDocs(q); //se podria importarr en otra funcion
+      const querySnapshot = await getDocs(q);
       const dataFromFirestore = querySnapshot.docs.map((item) => ({
         id: item.id,
         ...item.data(),

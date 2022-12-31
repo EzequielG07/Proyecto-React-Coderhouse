@@ -21,26 +21,21 @@ export const BadgeCount = styled.p`
   height: 1.3rem;
   width: 1.3rem;
   margin: 10px 4px 4px 4px;
-  /* border: solid white 1px; */
 `;
 
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: row;
-  /* border: solid white 1px; */
 `;
 
-//ItemDetail--------------------------------------------------
 export const ItemDetailContainer = styled.div`
   display: flex;
   flex-direction: row;
   padding-top: 100px;
-  /* border: solid red 5px; */
 `;
 
 export const ImgContainer = styled.div`
   flex: 1;
-  /* border: solid white 1px; */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -55,7 +50,6 @@ export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* border: solid hotpink 1px; */
   text-align: center;
   padding: 50px 20px;
 `;
@@ -80,7 +74,6 @@ export const Price = styled.p`
   color: white;
 `;
 
-//ItemCount
 export const ButtonAddToCart = styled.button`
   background-color: #005612;
   border: none;
@@ -99,21 +92,18 @@ export const ButtonAddDisable = styled.button`
   font-size: 20px;
   font-weight: 400;
 `;
+
 export const CounterContainer = styled.div`
   width: 35%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  /* border: solid red 1px; */
   margin-top: 50px;
   color: white;
 `;
 
-//Cart
-
 export const CartContainer = styled.ul`
-  /* border: solid hotpink 1px; */
   padding: 5px;
   width: 60%;
 `;
@@ -130,7 +120,6 @@ export const ProductItem = styled.li`
   color: white;
   margin: 20px 2px;
   list-style: none;
-  /* border: solid red 1px; */
   font-weight: 500;
 `;
 
@@ -176,7 +165,6 @@ export const TotalBill = styled.p`
 `;
 
 export const ButtonCartContainer = styled.div`
-  /* border: dashed blue 2px; */
   width: 30%;
   display: flex;
   justify-content: space-around;
@@ -200,8 +188,6 @@ export const ButtonDeleteAll = styled.button`
   font-size: 20px;
   font-weight: 600;
 `;
-
-//Item
 
 export const ButtonItem = styled.button`
   background-color: #4b4453;

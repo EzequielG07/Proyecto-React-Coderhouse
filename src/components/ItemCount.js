@@ -11,7 +11,7 @@ const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
 
   useEffect(() => {
     setCount(initial);
-  }, [initial]); // si o si puse initial y es []
+  }, [initial]);
 
   const increment = () => {
     if (count < stock) {
