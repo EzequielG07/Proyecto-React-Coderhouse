@@ -16,13 +16,15 @@ import {
   TextCommon,
 } from "./styledComponents";
 import "../App.css";
+import { message } from "../utils/message";
 
 const ItemDetail = ({ item }) => {
   const [itemCount, setItemCount] = useState(0);
   const { addToCart } = useContext(CartContext);
 
   const onAdd = (qty) => {
-    alert("You have selected " + qty + " items. (PRUEBA CAMBIAR)");
+    //  alert("You have selected " + qty + " items. (PRUEBA CAMBIAR)");
+    message(`Has seleccionado ${qty} und.`);
     setItemCount(qty);
     addToCart(item, qty);
   };

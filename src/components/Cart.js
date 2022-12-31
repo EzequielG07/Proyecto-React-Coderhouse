@@ -24,6 +24,7 @@ import {
   increment,
 } from "firebase/firestore";
 import { db } from "../utils/firebaseConfig";
+import { message } from "../utils/message";
 
 const Cart = () => {
   //   const {
@@ -63,7 +64,7 @@ const Cart = () => {
 
     createOrderInFirestore()
       .then((result) => {
-        alert(`your order ${result.id} has been created`);
+        message(`Tu orden cod:${result.id} ha sido creada`);
         //actualizar stock de productos
         ctx.cartList.forEach(async (item) => {
           const itemRef = doc(db, "products", item.idItem);
