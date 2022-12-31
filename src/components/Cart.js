@@ -15,7 +15,14 @@ import {
   Taxes,
   TotalBill,
 } from "./styledComponents";
-import { serverTimestamp, doc, setDoc } from "firebase/firestore";
+import {
+  serverTimestamp,
+  doc,
+  setDoc,
+  collection,
+  updateDoc,
+  increment,
+} from "firebase/firestore";
 import { db } from "../utils/firebaseConfig";
 
 const Cart = () => {
@@ -49,10 +56,26 @@ const Cart = () => {
     };
     console.log(order); //ojo consoleee
     const createOrderInFirestore = async () => {
-      await setDoc(doc(db, "orders", "1"), order);
+      const newOrderRef = doc(collection(db, "orders")); //para generar los id de manera automatica desde firestore
+      await setDoc(newOrderRef, order);
+      return newOrderRef;
     };
 
-    createOrderInFirestore();
+    createOrderInFirestore()
+      .then((result) => {
+        alert(`your order ${result.id} has been created`);
+        //actualizar stock de productos
+        ctx.cartList.forEach(async (item) => {
+          const itemRef = doc(db, "products", item.idItem);
+          await updateDoc(itemRef, {
+            //   stock: stock - item.qtyItem
+            stock: increment(-item.qtyItem),
+          });
+        });
+        //vaciar el carrito
+        ctx.removeList();
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -90,7 +113,11 @@ const Cart = () => {
         <Subtotal>Subtotal: ${ctx.calcSubTotal()}</Subtotal>
         <Taxes>Impuesto pais 60%: ${ctx.calcCountryTax()}</Taxes>
         <TotalBill>Total: ${ctx.calcTotal()}</TotalBill>
-        <ButtonShop onClick={createOrder}>Finalizar Compra</ButtonShop>
+        {ctx.cartList.length !== 0 ? (
+          <ButtonShop onClick={createOrder}>Finalizar Compra</ButtonShop>
+        ) : (
+          <div></div>
+        )}
       </BillContainer>
     </>
   );
