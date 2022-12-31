@@ -1,5 +1,0 @@
-23-12: se trabajo en los archivos de App, CartContext, ItemDetail, ItemCount y Cart, se agrego las funcionalidades de contexto
-25-12: se trabajo en los archivos de Cart, CartWidget y CartContext, se agrego las funcionalidades para que sume los totales subtotales y  muete el icono las cantidades.
-26-12: se trabajo con styled components en NavBar, CartWidget, ItemDetail, ItemCount
-27-12: se trabajo con estilos en Cart e ItemDetail
-28-12: Se trabajo en Cart, Item, Item, ItemCount, ItemDetail, ITemList, ItemListContainer aplicandole estilos
